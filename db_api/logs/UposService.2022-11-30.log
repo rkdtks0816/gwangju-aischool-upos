@@ -1,0 +1,111 @@
+2022-11-30 01:15:52,637 | UposService | INFO | error to do 'GetAHUSetSupData('2021-04-01 10:15:29')'
+2022-11-30 01:16:14,780 | UposService | INFO | error to do 'GetAHUSetSupData('2021-04-01 10:15:29')'
+2022-11-30 01:16:14,800 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-11-30 01:16:14,818 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-11-30 01:16:39,543 | UposService | INFO | error to do 'GetAHUSetSupData('2021-04-01 10:15:29')'
+2022-11-30 01:19:09,899 | UposService | INFO | error to do 'GetAHUSetSupData('2021-04-01 00:00:29')'
+2022-11-30 01:21:18,758 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:20')'
+2022-11-30 01:24:33,894 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 00:00:29')'
+2022-11-30 01:25:22,595 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25')'
+2022-11-30 01:25:52,447 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25:29')'
+2022-11-30 01:26:14,404 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25:29')'
+2022-11-30 01:26:36,465 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25:29')'
+2022-11-30 01:27:02,364 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25:29')'
+2022-11-30 01:27:23,917 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25:29')'
+2022-11-30 01:27:46,070 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25:29')'
+2022-11-30 01:28:08,625 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25:29')'
+2022-11-30 01:30:38,908 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:30')'
+2022-11-30 01:31:01,110 | UposService | INFO | succeed to do 'GetAHUSetSupData('20210401103029')'
+2022-11-30 01:35:23,924 | UposService | INFO | succeed to do 'GetAHUSetSupData('20210401103529')'
+2022-11-30 01:35:56,126 | UposService | INFO | succeed to do 'GetAHUSetSupData('20210401103529')'
+2022-11-30 01:38:02,624 | UposService | INFO | succeed to do 'GetAHUSetSupData('20210401103529')'
+2022-11-30 01:39:04,187 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:35:29')'
+2022-11-30 01:41:02,343 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:40')'
+2022-11-30 01:46:07,262 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:45')'
+2022-11-30 01:46:19,928 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-11-30 01:46:20,043 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-11-30 01:46:25,109 | UposService | INFO | error to do 'GetAHUInfo('CH-A1203')
+2022-11-30 01:46:27,022 | UposService | INFO | error to do 'GetAHUInfo('CH-A1202')
+2022-11-30 01:46:29,126 | UposService | INFO | error to do 'GetAHUInfo('CH-A1201')
+2022-11-30 01:46:36,672 | UposService | INFO | error to do 'GetAHUInfo('CH-A1202')
+2022-11-30 01:46:38,755 | UposService | INFO | error to do 'GetAHUInfo('CH-A1201')
+2022-11-30 02:28:25,673 | UposService | INFO | error to do 'GetAHUData('CHR016','20221005','20221005')'
+2022-11-30 02:28:26,348 | UposService | INFO | error to do 'GetAHUData('CHR016','20221005','20221005')'
+2022-11-30 02:28:26,564 | UposService | INFO | error to do 'GetAHUData('CHR016','20221005','20221005')'
+2022-11-30 02:28:27,415 | UposService | INFO | error to do 'GetAHUData('CHR016','20221005','20221005')'
+2022-11-30 02:34:10,441 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-11-30 03:08:48,049 | UposService | INFO | error to do 'GetAHUData()
+2022-11-30 03:10:10,578 | UposService | INFO | succeed to do 'GetAHUData()
+2022-11-30 03:13:33,535 | UposService | INFO | succeed to do 'GetAHUData('2021-04-01 00:00:29')
+2022-11-30 03:33:42,387 | UposService | INFO | error to do 'GetLpDataHourly('124'
+2022-11-30 03:34:00,052 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:37:10,823 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:37:39,264 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:38:25,199 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:38:35,805 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:39:17,655 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:40:46,840 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:41:06,098 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:43:15,737 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:43:35,321 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:45:06,312 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:46:25,857 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 00:00:29')'
+2022-11-30 03:46:28,632 | UposService | INFO | error to do 'GetLpDataHourly('20210401'
+2022-11-30 03:46:56,809 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:47:08,529 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:47:32,986 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:47:42,578 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00:00:29'
+2022-11-30 03:48:13,687 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00'
+2022-11-30 03:48:17,957 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01 00'
+2022-11-30 03:49:39,627 | UposService | INFO | error to do 'GetLpDataHourly('2021-04-01'
+2022-11-30 05:32:50,234 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 14:30:29')'
+2022-11-30 05:32:59,597 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-11-30 05:32:59,692 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-11-30 05:46:18,993 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 14:45:29')'
+2022-11-30 05:46:49,152 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-11-30 05:46:49,214 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-11-30 05:49:30,278 | UposService | INFO | succeed to do 'GetAHUData('2021-04-01 00:00:29')
+2022-11-30 07:03:52,129 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 16:00:29')'
+2022-11-30 07:05:52,229 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 16:05')'
+2022-11-30 07:06:39,483 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 16:05:29')'
+2022-11-30 07:07:46,979 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 16:05:29')'
+2022-11-30 07:08:24,521 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 16:05:29')'
+2022-11-30 07:10:47,335 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 16:10')'
+2022-11-30 07:11:09,238 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-07-31 16:10:29')'
+2022-11-30 07:11:09,257 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-11-30 07:11:09,277 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-11-30 07:11:31,668 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-07-31 16:10:29')'
+2022-11-30 07:12:38,562 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-07-31 16:10:29')'
+2022-11-30 07:12:38,575 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-11-30 07:12:38,593 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-11-30 07:12:42,219 | UposService | INFO | error to do 'GetAHUInfo('CH-A1203')
+2022-11-30 07:13:06,635 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-07-31 16:10:29')'
+2022-11-30 07:13:38,759 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-07-31 16:10:29')'
+2022-11-30 07:14:01,605 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-11-30 07:14:01,699 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-11-30 07:18:05,604 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-07-31 00:00:29')'
+2022-11-30 07:18:42,236 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-07-25 00:00:29')'
+2022-11-30 07:19:12,585 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 00:00:29')'
+2022-11-30 07:21:01,323 | UposService | INFO | succeed to do 'GetAHUData('2021-04-01 00:00:29')
+2022-11-30 07:57:13,086 | UposService | INFO | error to do 'GetAHUInfo('CH-A1203')
+2022-11-30 08:39:36,470 | UposService | INFO | error to do 'GetAHUData('2021-04-01 00:00:29')
+2022-11-30 08:40:35,997 | UposService | INFO | error to do 'GetAHUData('2021-04-01 00:00:29')
+2022-11-30 08:41:14,838 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 00:00:29')'
+2022-11-30 08:42:42,963 | UposService | INFO | succeed to do 'GetAHUData('2021-04-01 00:00:29')
+2022-11-30 08:51:13,410 | UposService | INFO | succeed to do 'GetAHUData('2021-04-01 00:00:29')
+2022-12-01 00:01:28,792 | UposService | INFO | succeed to do 'GetAHUData('2021-04-01 00:00:29')
+2022-12-01 01:26:16,012 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25:29')'
+2022-12-01 01:26:16,025 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-12-01 01:26:16,040 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-01 01:26:53,676 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:25:29')'
+2022-12-01 01:30:56,158 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:30')'
+2022-12-01 01:35:53,238 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:35')'
+2022-12-01 01:40:53,688 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:40')'
+2022-12-01 01:42:14,399 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:40:29')'
+2022-12-01 01:43:00,481 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:40:29')'
+2022-12-01 01:43:00,494 | UposService | INFO | succeed to do 'GetAHUConfiguration()'
+2022-12-01 01:43:00,504 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-01 01:43:22,249 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:40:29')'
+2022-12-01 01:45:46,116 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:45:29')'
+2022-12-01 01:46:08,178 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:45:29')'
+2022-12-01 01:50:59,652 | UposService | INFO | succeed to do 'GetAHUSetSupData('2021-04-01 10:50')'

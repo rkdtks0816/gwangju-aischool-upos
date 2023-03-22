@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>UPOS</title>
+		<link rel="shortcut Icon" href="/static/images/factory.png" />
+  	<link rel="apple-touch-icon=precomposed" href="/static/images/factory.png" />
+  	<link rel="stylesheet" href="/static/css/font.css" />
+		<link rel="stylesheet" href="/static/css/reset.css" />
+		<link rel="stylesheet" href="/static/css/common.css" />
+		<link rel="stylesheet" href="/static/css/header.css" />
+		<link rel="stylesheet" href="/static/css/section.css" />
+		<link rel="stylesheet" href="/static/libs/perfect-scrollbar/dist/css/perfect-scrollbar.min.css" />
+		<link rel="stylesheet" href="/static/libs/toastr/dist/build/toastr.min.css" />
+		<script src="/static/libs/jquery/dist/jquery.min.js"></script>
+		<script src="/static/libs/feather/feather.min.js"></script>
+		<script src="/static/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+		<script src="/static/libs/d3/d3.v5.min.js"></script>
+		<script src="/static/libs/toastr/dist/build/toastr.min.js"></script>
+		<script src="/static/js/address.js"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<header class="header">
+				<div class="header_left">
+					<h1 class="hidden">UPOS</h1>
+					<img src="/static/images/logo.png" alt="logo" class="logo" />
+					<a href="javascript:void(0)"><i data-feather="menu" aria-hidden="true" class='feather feather_gnb'></i><span class="hidden">메뉴 활성화 버튼</span></a>
+				</div>
+				<div class="header_right">
+					<div class="header_notice">
+						<img src="/static/images/factory.png" alt="factory-icon" class="factory-icon" />Utility Performance Optimization System
+					</div>
+					<div class="header_line"></div>
+				</div>
+			</header>
+			<aside class="aside gnb_hover">
+				<div class="aside_more"><i data-feather="more-horizontal" class="feather">more_horiz</i></div>
+				<h2>MENU</h2>
+				<nav id="gnb">
+					<ul class="main_menu">
+						<li id="ahu">
+							<a href="javascript:void(0)"><i data-feather="thermometer" class="feather feather_menu" aria-hidden="true"></i>대시보드</a>
+							<ul class="sub_menu">
+								<li id="dashboard"><a href="/dashboard">시스템 대시보드</a></li>
+								<li id="chiller"><a href="/chiller">유닛 대시보드</a></li>
+							</ul>
+						</li>
+						<li id="efficiency">
+							<a href="javascript:void(0)"><i data-feather="zap" class="feather feather_menu" aria-hidden="true"></i>효율</a>
+							<ul class="sub_menu">
+								<li id="hour"><a href="/efficiency">효율</a></li>
+							</ul>
+						</li>
+						<li id="power">
+							<a href="javascript:void(0)"><i data-feather="zap" class="feather feather_menu" aria-hidden="true"></i>전력소비량</a>
+							<ul class="sub_menu">
+								<li id="hour"><a href="/hour">시간별 전력소비량</a></li>
+								<li id="day"><a href="/day">일별 전력소비량</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</aside>
+			<main role="main">
+				<section class="section">
+					<h3 class="section_title">시간별 전력소비량</h3>
+					<div class="power_container">
+						<div class="power_search">
+							<label for="">조회일자</label>
+							<input type="date" id="lpDate" min="2021-04-01" max="2021-04-30" />
+							<button type="button">검색</button>
+						</div>
+						<div class="chart_container position-relative">
+							<div id="tooltip">
+								<div class="tooltipDate">2022년 11월 2일 00시</div>
+								<div class="tooltipSet tooltip_line"><span class="tooltipTitle kW">전력소비량</span>&nbsp;:&nbsp;<span class="tooltipValue kW">150 kW</span></div>
+							</div>
+							<div id="chart_container" class="hour">
+							</div>
+						</div>
+						<div class="table_container table-container position-relative">
+							<table class="text-center w100 hour-table">
+								<thead>
+									<tr>
+										<th width="50%">일자</th>
+										<th width="50%">전력소비량</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td colspan="2" class="table_empty">조회일자를 선택한 후, 검색 버튼을 눌러주세요.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>
+<script src="/static/js/index.js"></script>
+<script src="/static/js/fn.js"></script>
+<script src="/static/js/apicall.js"></script>
+<script>
+	$('.power_search button').click(function(){
+		hourPowerCall();
+	})
+</script>

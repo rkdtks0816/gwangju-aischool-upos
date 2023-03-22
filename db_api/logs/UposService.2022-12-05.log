@@ -1,0 +1,324 @@
+2022-12-05 05:19:25,418 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 14:15:29')'
+2022-12-05 05:19:27,213 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 14:15:29')
+2022-12-05 05:19:28,124 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 14:15:29')'
+2022-12-05 05:19:28,127 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 05:35:36,361 | UposService | INFO | succeed to do 'GetLpDataHourly('2021-04-09')'
+2022-12-05 05:36:51,068 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 14:35:29')'
+2022-12-05 05:36:52,848 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 14:35:29')
+2022-12-05 05:36:52,852 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 05:47:44,485 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 14:45:29')'
+2022-12-05 05:48:11,089 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 14:45:29')'
+2022-12-05 05:48:12,816 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 14:45:29')
+2022-12-05 05:48:12,820 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 05:49:06,557 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 14:45:29')'
+2022-12-05 05:49:08,357 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 14:45:29')
+2022-12-05 05:49:08,361 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 06:43:15,035 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:40:29')'
+2022-12-05 06:43:21,549 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:40:29')'
+2022-12-05 06:43:23,325 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 15:40:29')
+2022-12-05 06:43:23,331 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 06:44:32,363 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:40:29')'
+2022-12-05 06:44:34,177 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 15:40:29')
+2022-12-05 06:44:34,180 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 06:44:38,553 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:40:29')'
+2022-12-05 06:44:40,342 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 15:40:29')
+2022-12-05 06:44:40,345 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 06:44:55,953 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 15:40:29')
+2022-12-05 06:44:56,847 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:40:29')'
+2022-12-05 06:44:56,850 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 06:53:18,216 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:50:29')'
+2022-12-05 06:53:20,063 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 15:50:29')
+2022-12-05 06:53:20,067 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 06:53:30,716 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:50:29')'
+2022-12-05 06:53:32,535 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 15:50:29')
+2022-12-05 06:53:32,539 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 06:55:08,628 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:55:29')'
+2022-12-05 06:55:10,398 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 15:55:29')
+2022-12-05 06:55:10,402 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 06:55:37,907 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:55:29')'
+2022-12-05 06:55:39,811 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 15:55:29')
+2022-12-05 06:55:39,816 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 06:58:09,024 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 15:55:29')'
+2022-12-05 06:58:10,820 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 15:55:29')
+2022-12-05 06:58:10,825 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:04:54,493 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:00:29')'
+2022-12-05 07:04:56,345 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:00:29')
+2022-12-05 07:04:56,350 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:12:40,619 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:10:29')
+2022-12-05 07:12:41,567 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:10:29')'
+2022-12-05 07:12:41,571 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:23:45,552 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:20:29')
+2022-12-05 07:23:46,483 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:20:29')'
+2022-12-05 07:23:46,487 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:24:19,762 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:20:29')'
+2022-12-05 07:24:21,529 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:20:29')
+2022-12-05 07:24:21,534 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:25:41,804 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:25:29')'
+2022-12-05 07:25:43,554 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:25:29')
+2022-12-05 07:25:43,560 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:26:11,642 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:25:29')
+2022-12-05 07:26:12,565 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:25:29')'
+2022-12-05 07:26:12,570 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:33:05,464 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:30:29')'
+2022-12-05 07:33:07,333 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:30:29')
+2022-12-05 07:33:07,337 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:33:47,939 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:30:29')'
+2022-12-05 07:33:49,773 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:30:29')
+2022-12-05 07:33:49,780 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:36:33,534 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:35:29')
+2022-12-05 07:36:34,432 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:35:29')'
+2022-12-05 07:36:34,437 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:37:10,194 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:35:29')'
+2022-12-05 07:37:11,987 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:35:29')
+2022-12-05 07:37:11,990 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:39:31,269 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:35:29')
+2022-12-05 07:39:32,184 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:35:29')'
+2022-12-05 07:39:32,188 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:49:04,012 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:45:29')'
+2022-12-05 07:49:05,795 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:45:29')
+2022-12-05 07:49:05,799 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:52:43,230 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:50:29')'
+2022-12-05 07:52:45,017 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:50:29')
+2022-12-05 07:52:45,022 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 07:57:07,856 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 16:55:29')'
+2022-12-05 07:57:09,674 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 16:55:29')
+2022-12-05 07:57:09,678 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:17:55,674 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:15:29')'
+2022-12-05 08:17:57,703 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:15:29')
+2022-12-05 08:17:57,708 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:35:15,575 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:35:29')'
+2022-12-05 08:35:17,372 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:35:29')
+2022-12-05 08:35:17,379 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:35:32,247 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:35:29')'
+2022-12-05 08:35:34,065 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:35:29')
+2022-12-05 08:35:34,070 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:35:51,874 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:35:29')'
+2022-12-05 08:35:53,663 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:35:29')
+2022-12-05 08:35:53,666 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:35:57,341 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:35:29')'
+2022-12-05 08:35:59,150 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:35:29')
+2022-12-05 08:35:59,154 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:40:41,320 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:40:29')'
+2022-12-05 08:40:43,189 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:40:29')
+2022-12-05 08:40:43,193 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:41:44,682 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:40:29')
+2022-12-05 08:41:45,616 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:40:29')'
+2022-12-05 08:41:45,621 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:41:53,034 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:40:29')'
+2022-12-05 08:41:54,871 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:40:29')
+2022-12-05 08:41:54,875 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:42:14,465 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:40:29')
+2022-12-05 08:42:15,353 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:40:29')'
+2022-12-05 08:42:15,357 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:47:19,879 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:45:29')'
+2022-12-05 08:47:21,714 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:45:29')
+2022-12-05 08:47:21,719 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:54:53,665 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:50:29')'
+2022-12-05 08:54:55,447 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:50:29')
+2022-12-05 08:54:55,451 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 08:58:45,391 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 17:55:29')'
+2022-12-05 08:58:47,186 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 17:55:29')
+2022-12-05 08:58:47,190 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 09:00:02,651 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 18:00:29')'
+2022-12-05 09:00:04,601 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 18:00:29')
+2022-12-05 09:00:04,606 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 09:02:23,184 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 18:00:29')'
+2022-12-05 09:02:24,997 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 18:00:29')
+2022-12-05 09:02:25,001 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 09:03:34,071 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 18:00:29')'
+2022-12-05 09:03:35,986 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 18:00:29')
+2022-12-05 09:03:35,991 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:26:49,195 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:25:29')'
+2022-12-05 11:26:52,883 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:25:29')'
+2022-12-05 11:26:54,468 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:25:29')
+2022-12-05 11:26:54,472 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:37:15,220 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:35:29')'
+2022-12-05 11:37:16,806 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:35:29')
+2022-12-05 11:37:16,810 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:37:39,292 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:35:29')'
+2022-12-05 11:37:40,865 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:35:29')
+2022-12-05 11:37:40,869 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:37:52,559 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:35:29')'
+2022-12-05 11:37:54,193 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:35:29')
+2022-12-05 11:37:54,196 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:42:28,835 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:40:29')'
+2022-12-05 11:42:30,508 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:40:29')
+2022-12-05 11:42:30,511 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:47:46,884 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:45:29')
+2022-12-05 11:47:47,671 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:45:29')'
+2022-12-05 11:47:47,675 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:51:22,298 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:50:29')
+2022-12-05 11:51:23,089 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:50:29')'
+2022-12-05 11:51:23,093 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:52:02,785 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:50:29')'
+2022-12-05 11:52:04,460 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:50:29')
+2022-12-05 11:52:04,463 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:52:24,984 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:50:29')'
+2022-12-05 11:52:26,701 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:50:29')
+2022-12-05 11:52:26,704 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:52:50,966 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:50:29')
+2022-12-05 11:52:51,859 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:50:29')'
+2022-12-05 11:52:51,862 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:53:41,434 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:50:29')
+2022-12-05 11:53:42,274 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:50:29')'
+2022-12-05 11:53:42,278 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:54:59,298 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:50:29')'
+2022-12-05 11:55:00,941 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:50:29')
+2022-12-05 11:55:00,944 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:55:49,122 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:55:29')'
+2022-12-05 11:55:50,858 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:55:29')
+2022-12-05 11:55:50,862 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:56:23,922 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:55:29')'
+2022-12-05 11:56:25,511 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:55:29')
+2022-12-05 11:56:25,515 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:56:55,367 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:55:29')
+2022-12-05 11:56:56,211 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:55:29')'
+2022-12-05 11:56:56,215 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:58:09,892 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:55:29')'
+2022-12-05 11:58:11,431 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:55:29')
+2022-12-05 11:58:11,434 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 11:58:34,135 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:55:29')'
+2022-12-05 11:58:35,743 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:55:29')
+2022-12-05 11:58:35,746 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:00:00,962 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 20:55:29')'
+2022-12-05 12:00:02,791 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 20:55:29')
+2022-12-05 12:00:02,795 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:02:25,631 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:00:29')'
+2022-12-05 12:02:27,269 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:00:29')
+2022-12-05 12:02:27,272 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:04:28,037 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:00:29')'
+2022-12-05 12:04:29,536 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:00:29')
+2022-12-05 12:04:29,539 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:04:52,911 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:00:29')
+2022-12-05 12:04:53,711 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:00:29')'
+2022-12-05 12:04:53,715 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:05:47,714 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:05:29')
+2022-12-05 12:05:48,586 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:05:29')'
+2022-12-05 12:05:48,589 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:06:52,595 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:05:29')
+2022-12-05 12:06:53,366 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:05:29')'
+2022-12-05 12:06:53,370 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:08:05,410 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:05:29')'
+2022-12-05 12:08:07,002 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:05:29')
+2022-12-05 12:08:07,006 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:08:32,681 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:05:29')
+2022-12-05 12:08:33,540 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:05:29')'
+2022-12-05 12:08:33,544 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:13:58,071 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:10:29')'
+2022-12-05 12:13:59,596 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:10:29')
+2022-12-05 12:13:59,601 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:14:50,504 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:10:29')'
+2022-12-05 12:14:52,173 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:10:29')
+2022-12-05 12:14:52,176 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:19:16,832 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:15:29')'
+2022-12-05 12:19:18,374 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:15:29')
+2022-12-05 12:19:18,378 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:20:10,233 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:20:29')'
+2022-12-05 12:20:11,985 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:20:29')
+2022-12-05 12:20:11,988 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:20:40,197 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:20:29')'
+2022-12-05 12:20:41,934 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:20:29')
+2022-12-05 12:20:41,938 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:20:58,311 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:20:29')'
+2022-12-05 12:20:59,947 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:20:29')
+2022-12-05 12:20:59,952 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:21:04,367 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:20:29')'
+2022-12-05 12:21:06,048 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:20:29')
+2022-12-05 12:21:06,052 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:22:07,792 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:20:29')'
+2022-12-05 12:22:09,397 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:20:29')
+2022-12-05 12:22:09,400 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:22:28,489 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:20:29')'
+2022-12-05 12:22:30,061 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:20:29')
+2022-12-05 12:22:30,064 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:25:12,927 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:25:29')'
+2022-12-05 12:25:14,732 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:25:29')
+2022-12-05 12:25:14,736 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:25:27,848 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:25:29')'
+2022-12-05 12:25:29,449 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:25:29')
+2022-12-05 12:25:29,452 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:33:44,132 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:30:29')
+2022-12-05 12:33:44,899 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:30:29')'
+2022-12-05 12:33:44,902 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:34:37,420 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:30:29')'
+2022-12-05 12:34:39,048 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:30:29')
+2022-12-05 12:34:39,052 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:34:51,604 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:30:29')'
+2022-12-05 12:34:53,297 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:30:29')
+2022-12-05 12:34:53,301 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:36:15,876 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:35:29')'
+2022-12-05 12:36:17,445 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:35:29')
+2022-12-05 12:36:17,448 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:37:11,551 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:35:29')'
+2022-12-05 12:37:13,053 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:35:29')
+2022-12-05 12:37:13,057 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:37:40,062 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:35:29')
+2022-12-05 12:37:40,829 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:35:29')'
+2022-12-05 12:37:40,833 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:38:29,395 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:35:29')'
+2022-12-05 12:38:30,908 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:35:29')
+2022-12-05 12:38:30,912 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:38:45,936 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:35:29')'
+2022-12-05 12:38:47,446 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:35:29')
+2022-12-05 12:38:47,450 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:40:19,502 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:40:29')'
+2022-12-05 12:40:21,245 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:40:29')
+2022-12-05 12:40:21,248 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:40:26,737 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:40:29')
+2022-12-05 12:40:27,674 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:40:29')'
+2022-12-05 12:40:27,678 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:40:49,211 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:40:29')'
+2022-12-05 12:40:51,054 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:40:29')
+2022-12-05 12:40:51,058 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:40:58,168 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:40:29')'
+2022-12-05 12:41:00,030 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:40:29')
+2022-12-05 12:41:00,033 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:41:06,087 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:40:29')'
+2022-12-05 12:41:07,699 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:40:29')
+2022-12-05 12:41:07,702 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 12:41:13,088 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 21:40:29')'
+2022-12-05 12:41:14,763 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 21:40:29')
+2022-12-05 12:41:14,767 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 13:48:18,744 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 22:45:29')'
+2022-12-05 13:48:24,297 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 22:45:29')'
+2022-12-05 13:48:26,411 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 22:45:29')'
+2022-12-05 13:48:27,961 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 22:45:29')
+2022-12-05 13:48:27,964 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-05 13:48:33,629 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 22:45:29')'
+2022-12-05 13:48:44,159 | UposService | INFO | succeed to do 'GetLpDataHourly('2021-04-01')'
+2022-12-05 13:48:50,973 | UposService | INFO | succeed to do 'GetLpDataDaily('2021-04',2021-05)'
+2022-12-05 13:48:52,371 | UposService | INFO | succeed to do 'GetLpDataDaily('2021-04',2021-05)'
+2022-12-05 13:48:53,545 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 22:45:29')'
+2022-12-05 17:04:30,991 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 01:00:29')'
+2022-12-06 00:18:42,709 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:15:29')'
+2022-12-06 00:18:44,493 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:15:29')'
+2022-12-06 00:18:47,068 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 09:15:29')
+2022-12-06 00:18:47,983 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:15:29')'
+2022-12-06 00:18:47,986 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-06 00:18:48,890 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 18:15:29')'
+2022-12-06 00:18:52,021 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 09:15:29')
+2022-12-06 00:18:52,843 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:15:29')'
+2022-12-06 00:18:52,847 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-06 00:19:12,576 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 19:15:29')
+2022-12-06 00:19:13,380 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 19:15:29')'
+2022-12-06 00:19:24,978 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-06 00:19:27,323 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:15:29')'
+2022-12-06 00:20:04,677 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:20:29')'
+2022-12-06 00:20:06,385 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 09:20:29')
+2022-12-06 00:20:06,388 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-06 00:22:39,924 | UposService | INFO | succeed to do 'GetLpDataHourly('2021-04-07')'
+2022-12-06 00:23:32,094 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:20:29')'
+2022-12-06 00:23:33,915 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 09:20:29')
+2022-12-06 00:23:33,919 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-06 00:28:29,429 | UposService | INFO | succeed to do 'GetLpDataDaily('2021-04',2021-05)'
+2022-12-06 00:34:35,212 | UposService | INFO | succeed to do 'GetLpDataHourly('2021-04-15')'
+2022-12-06 00:37:50,587 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:35:29')'
+2022-12-06 00:37:52,289 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 09:35:29')
+2022-12-06 00:37:52,292 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-06 00:41:51,616 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:40:29')'
+2022-12-06 00:41:53,208 | UposService | INFO | succeed to do 'GetUpiData('2021-04-01 09:40:29')
+2022-12-06 00:41:53,212 | UposService | INFO | error to do 'GetAHUInfo('')
+2022-12-06 00:46:06,200 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:45:29')'
+2022-12-06 00:50:07,737 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:50')'
+2022-12-06 00:55:12,693 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:55')'
+2022-12-06 00:57:11,007 | UposService | INFO | succeed to do 'Get_ChilledWater_T_Data('2021-04-01 09:55:29')'

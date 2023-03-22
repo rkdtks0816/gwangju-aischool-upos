@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>UPOS</title>
+	<link rel="shortcut Icon" href="/static/images/factory.png" />
+	<link rel="apple-touch-icon=precomposed" href="/static/images/factory.png" />
+	<link rel="stylesheet" href="/static/css/font.css" />
+	<link rel="stylesheet" href="/static/css/reset.css" />
+	<link rel="stylesheet" href="/static/css/common.css" />
+	<link rel="stylesheet" href="/static/css/header.css" />
+	<link rel="stylesheet" href="/static/css/section.css" />
+	<link rel="stylesheet" href="/static/libs/perfect-scrollbar/dist/css/perfect-scrollbar.min.css" />
+	<link rel="stylesheet" href="/static/libs/toastr/dist/build/toastr.min.css" />
+	<script src="/static/libs/jquery/dist/jquery.min.js"></script>
+	<script src="/static/libs/feather/feather.min.js"></script>
+	<script src="/static/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+	<script src="/static/libs/d3/d3.v5.min.js"></script>
+	<script src="/static/libs/toastr/dist/build/toastr.min.js"></script>
+	<script src="/static/js/address.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<header class="header">
+			<div class="header_left">
+				<h1 class="hidden">UPOS</h1>
+				<img src="/static/images/logo.png" alt="logo" class="logo" />
+				<a href="javascript:void(0)"><i data-feather="menu" aria-hidden="true" class='feather feather_gnb'></i><span class="hidden">메뉴 활성화 버튼</span></a>
+			</div>
+			<div class="header_right">
+				<div class="header_notice">
+					<img src="/static/images/factory.png" alt="factory-icon" class="factory-icon" />Utility Performance Optimization System
+				</div>
+				<div class="header_line"></div>
+			</div>
+		</header>
+		<aside class="aside gnb_hover">
+			<div class="aside_more"><i data-feather="more-horizontal" class="feather">more_horiz</i></div>
+			<h2>MENU</h2>
+			<nav id="gnb">
+				<ul class="main_menu">
+					<li id="ahu">
+						<a href="javascript:void(0)"><i data-feather="thermometer" class="feather feather_menu" aria-hidden="true"></i>대시보드</a>
+						<ul class="sub_menu">
+							<li id="dashboard"><a href="/dashboard">시스템 대시보드</a></li>
+							<li id="chiller"><a href="/chiller">유닛 대시보드</a></li>
+						</ul>
+					</li>
+					<li id="efficiency">
+						<a href="javascript:void(0)"><i data-feather="zap" class="feather feather_menu" aria-hidden="true"></i>효율</a>
+						<ul class="sub_menu">
+							<li id="hour"><a href="/efficiency">효율</a></li>
+						</ul>
+					</li>
+					<li id="power">
+						<a href="javascript:void(0)"><i data-feather="zap" class="feather feather_menu" aria-hidden="true"></i>전력소비량</a>
+						<ul class="sub_menu">
+							<li id="hour"><a href="/hour">시간별 전력소비량</a></li>
+							<li id="day"><a href="/day">일별 전력소비량</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+		<main role="main">
+			<section class="section">
+				<div class="temp_search d-flex justify-content-between">
+					<select id="fac_name">
+						<option value="CHR016" selected>CH-1201</option>
+						<option value="CHR017" >CH-1202</option>
+						<option value="CHR018" >CH-1203</option>
+						<option value="CHR019" >CH-1204</option>
+						<option value="CHR020" >CH-1205</option>
+						<option value="CHR021" >CH-1206</option>
+						<option value="CHR022" >CH-1207</option>
+					</select>
+					<span class="update">
+						최종 업데이트&nbsp;-&nbsp;
+						<span class="update_time">2022년 11월 01일 16시 30분</span>
+						<span class="update_btn">
+							<img src="/static/images/loading.gif" alt="loading" class="updateLoading d-none" />
+						</span>
+						<div id="progress-bar" class="progress-bar"></div>
+					</span>
+				</div>
+				<div class="chillerbox">
+					<div class="chiller_imfo1">
+						<div class="Guide_Venc">
+							<div class="Guide_Venc_Label">
+								Guide_Vane
+							</div>
+							<div class="Guide_Venc_value">
+								-%
+							</div>
+						</div>
+						<div class="Chiller_W">
+							<div class="Chiller_W_Label">
+								Chiller_W
+							</div>
+							<div class="Chiller_W_Enter">
+								<div class="Chiller_W_Enter_Label">
+									Enter
+								</div>
+								<div class="Chiller_W_Enter_value">
+									-℃
+								</div>
+							</div>
+							<div class="Chiller_W_Leave">
+								<div class="Chiller_W_Leave_Label">
+									Leave
+								</div>
+								<div class="Chiller_W_Leave_value">
+									-℃
+								</div>
+							</div>
+						</div>	
+						<div class="Cond_W">
+							<div class="Cond_W_Label">
+								Cond_W
+							</div>
+							<div class="Cond_W_Enter">
+								<div class="Cond_W_Enter_Label">
+									Enter
+								</div>
+								<div class="Cond_W_Enter_value">
+									-℃
+								</div>
+							</div>
+							<div class="Cond_W_Leave">
+								<div class="Cond_W_Leave_Label">
+									Leave
+								</div>
+								<div class="Cond_W_Leave_value">
+									-℃
+								</div>
+							</div>
+						</div>										
+					</div>
+					<div class="chiller_img">
+						<img src="/static/images/chiller.jpg" alt="chiller-icon" class="chiller-icon" />	
+					</div>
+					<div class="chiller_imfo2">
+						<div class="Motor_Amps">
+							<div class="Motor_Amps_Label">
+								Motor_Amps
+							</div>
+							<div class="Motor_Amps_value">
+								-A
+							</div>
+						</div>
+						<div class="Oilbox">
+							<div class="Oil_Temp">
+								<div class="Oil_Temp_Label">
+									Oil_Temp
+								</div>
+								<div class="Oil_Temp_value">
+									-℃
+								</div>
+							</div>
+							<div class="DP">
+								<div class="DP_Label">
+									Delta_T
+								</div>
+								<div class="DP_value">
+									-℃
+								</div>
+							</div>
+						</div>
+						<div class="Eva_Tempbox">
+							<div class="Eva_Temp">
+								<div class="Eva_Temp_Label">
+									Eva_Temp
+								</div>
+								<div class="Eva_Temp_value">
+									-℃
+								</div>
+							</div>
+							<div class="Eva_Pres">
+								<div class="Eva_Pres_Label">
+									Pres
+								</div>
+								<div class="Eva_Pres_value">
+									-psi
+								</div>
+							</div>
+						</div>
+						<div class="Cond_Tempbox">
+							<div class="Cond_Temp">
+								<div class="Cond_Temp_Label">
+									Cond_Temp
+								</div>
+								<div class="Cond_Temp_value">
+									-℃
+								</div>
+							</div>
+							<div class="Cond_Pres">
+								<div class="Cond_Pres_Label">
+									Pres
+								</div>
+								<div class="Cond_Pres_value">
+									-psi
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</section>
+		</main>
+    </div>
+</body>
+</html>
+<script src="/static/js/index.js"></script>
+<script src="/static/js/fn.js"></script>
+<script src="/static/js/apicall.js"></script>
+<script>
+	NowEfficiency();
+	InfodataCall();
+
+	$('#fac_name').change(function(){
+		InfodataCall();
+	})
+
+	setTimeout(function(){
+		NowEfficiency();
+		InfodataCall();
+	},60000)
+
+</script>

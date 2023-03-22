@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  letter-spacing: -0.05em;
+  color: #282828;
+  font-size: 1.4rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input, button, label, textarea, select, option {
+  font-family: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  font-size: inherit;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hidden {
+  font-size: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.custom-mt-16 {
+  margin-top: 16px;
+}
+
+.custom-mt-24 {
+  margin-top: 24px;
+}
+
+.custom-mt-40 {
+  margin-top: 40px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+  z-index: 1;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+.sticky-start {
+  left: 0;
+  top: -0.5px;
+}
+
+/* chart tooltip */
+.toolTip {
+  background: #FFF;
+  padding: 12px;
+  font-size: 1.3rem;
+  border-radius: 4px;
+  border: 1px solid #DDD;
+  pointer-events: none;
+
+  opacity: 0;
+}
+
+.toolTipDate {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #666;
+}
+
+.toolTipValue_box {
+  font-weight: 700;
+}
+
+.toolTipValue {
+  font-weight: 500;
+}
+
+.toolTipValue_box+.toolTipValue_box {
+  margin-top: 8px;
+}
+
+.labelSwitch {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.labelSwitch input {
+  margin-left: 6px;
+}
+
+.labelSwitch label {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.switch_pump_label:not(:first-child),
+.switch_fan_label:not(:first-child),
+.switch_tem_label:not(:first-child) {
+  margin-left: 12px;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.chart_blue {
+  color: #368DD9;
+}
+
+.chart_orange {
+  color: #FFB30D;
+}
+
+.chart_red {
+  color: #d93636;
+}
+
+.chart_green {
+  color: #0bcf84;
+}
+
+.chart_pupple {
+  color: #7d36d9;
+}
+
+.chart_gray {
+  color: #999999;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.transY-50 {
+	transform: translateY(-50%);
+}
+
+.toolTipValue_box>.fw-500 {
+  display: inline-block;
+  min-width: 40px;
+  white-space: nowrap;
+}
+
+.fz-14 {
+  font-size: 1.4rem !important;
+}
+
+.fz-16 {
+  font-size: 1.6rem !important;
+}
+
+/* html scroll */
+html::-webkit-scrollbar {
+  width: 8px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #AAA;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar-track {
+  background-color: #FAFBFF;
+  border-radius: 10px;
+}
+
+/* table 모바일 동작 */
+.min-w-375 {
+  min-width: 311px;
+}
+
+.min-w-500 {
+  min-width: 428px;
+}
+
+.min-w-1300 {
+  min-width: 951px;
+}
+
+.min-w-620 {
+  min-width: 546px;
+}
+
+/* 실시간 업데이트  */

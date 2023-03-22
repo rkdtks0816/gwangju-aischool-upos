@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>UPOS</title>
+		<link rel="shortcut Icon" href="/static/images/factory.png" />
+  	<link rel="apple-touch-icon=precomposed" href="/static/images/factory.png" />
+  	<link rel="stylesheet" href="/static/css/font.css" />
+		<link rel="stylesheet" href="/static/css/reset.css" />
+		<link rel="stylesheet" href="/static/css/common.css" />
+		<link rel="stylesheet" href="/static/css/header.css" />
+		<link rel="stylesheet" href="/static/css/section.css" />
+		<link rel="stylesheet" href="/static/libs/perfect-scrollbar/dist/css/perfect-scrollbar.min.css" />
+		<link rel="stylesheet" href="/static/libs/toastr/dist/build/toastr.min.css" />
+		<script src="/static/libs/jquery/dist/jquery.min.js"></script>
+		<script src="/static/libs/feather/feather.min.js"></script>
+		<script src="/static/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+		<script src="/static/libs/d3/d3.v5.min.js"></script>
+		<script src="/static/libs/chartjs/chart.min.js"></script>
+		<script src="/static/libs/chartjs/chartjs-plugin-datalabels.min.js"></script>
+		<script src="/static/libs/toastr/dist/build/toastr.min.js"></script>
+		<script src="/static/js/address.js"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<header class="header">
+				<div class="header_left">
+					<h1 class="hidden">UPOS</h1>
+					<img src="/static/images/logo.png" alt="logo" class="logo" />
+					<a href="javascript:void(0)"><i data-feather="menu" aria-hidden="true" class='feather feather_gnb'></i><span class="hidden">메뉴 활성화 버튼</span></a>
+				</div>
+				<div class="header_right">
+					<div class="header_notice">
+						<img src="/static/images/factory.png" alt="factory-icon" class="factory-icon" />Utility Performance Optimization System
+					</div>
+					<div class="header_line"></div>
+				</div>
+			</header>
+			<aside class="aside gnb_hover">
+				<div class="aside_more"><i data-feather="more-horizontal" class="feather">more_horiz</i></div>
+				<h2>MENU</h2>
+				<nav id="gnb">
+					<ul class="main_menu">
+						<li id="ahu">
+							<a href="javascript:void(0)"><i data-feather="thermometer" class="feather feather_menu" aria-hidden="true"></i>대시보드</a>
+							<ul class="sub_menu">
+								<li id="dashboard"><a href="/dashboard">시스템 대시보드</a></li>
+								<li id="chiller"><a href="/chiller">유닛 대시보드</a></li>
+							</ul>
+						</li>
+						<li id="efficiency">
+							<a href="javascript:void(0)"><i data-feather="zap" class="feather feather_menu" aria-hidden="true"></i>효율</a>
+							<ul class="sub_menu">
+								<li id="hour"><a href="/efficiency">효율</a></li>
+							</ul>
+						</li>
+						<li id="power">
+							<a href="javascript:void(0)"><i data-feather="zap" class="feather feather_menu" aria-hidden="true"></i>전력소비량</a>
+							<ul class="sub_menu">
+								<li id="hour"><a href="/hour">시간별 전력소비량</a></li>
+								<li id="day"><a href="/day">일별 전력소비량</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</aside>
+			<main role="main">
+				<section class="section">
+					<div class="temp_search d-flex justify-content-between">
+						<h3 class="section_title mb0">시스템 대시보드</h3>
+						<span class="update">
+							최종 업데이트&nbsp;-&nbsp;
+							<span class="update_time">2022년 11월 01일 16시 30분</span>
+							<span class="update_btn">
+								<img src="../static/images/loading.gif" alt="loading" class="updateLoading d-none" />
+							</span>
+							<div id="progress-bar" class="progress-bar"></div>
+						</span>
+					</div>
+          			<div class="upi_chart">
+						<div class="upi_chart-container position-relative">
+								<canvas id="upi_chart"></canvas>
+						</div>
+						<div class="upi_state">
+							<div class="unitupi chiller_1">
+								<img src="/static/images/loading_gray.gif" alt="unitupi-icon" class="unitupi-icon" />
+							</div>
+							<div class="unitupi chiller_2">
+								<img src="/static/images/loading_gray.gif" alt="unitupi-icon" class="unitupi-icon" />
+							</div>
+							<div class="unitupi chiller_3">
+								<img src="/static/images/loading_gray.gif" alt="unitupi-icon" class="unitupi-icon" />
+							</div>
+							<div class="unitupi chiller_4">
+								<img src="/static/images/loading_gray.gif" alt="unitupi-icon" class="unitupi-icon" />
+							</div>
+							<div class="unitupi chiller_5">
+								<img src="/static/images/loading_gray.gif" alt="unitupi-icon" class="unitupi-icon" />
+							</div>
+							<div class="unitupi chiller_6">
+								<img src="/static/images/loading_gray.gif" alt="unitupi-icon" class="unitupi-icon" />
+							</div>
+							<div class="unitupi chiller_7">
+								<img src="/static/images/loading_gray.gif" alt="unitupi-icon" class="unitupi-icon" />
+							</div>
+						</div>	
+					</div>
+					<div class="run_num_box">
+						<div class="upi_explanation">
+							<img src="/static/images/upi_explanation_icon.png" alt="upi_explanation_icon" class="upi_explanation_icon"/>
+						</div>
+						<div class="run_num_icons_box">
+							<div class="run_num_border">
+								<div class="run_num_icon_box">
+									<img src="/static/images/run_num.png" alt="run_num_icon" class="run_num_icon"/>
+								</div>
+								<div class="run_num_icon_box">
+									<img src="/static/images/loading_gray.gif" alt="num_icon" class="num_icon" />
+								</div>
+							</div>
+							<div class="run_num_border">
+								<div class="run_num_icon_box">
+									<img src="/static/images/run_num_cal.png" alt="run_num_icon" class="run_num_icon"/>
+								</div>
+								<div class="run_num_icon_box">
+									<img src="/static/images/loading_gray.gif" alt="num_cal_icon" class="num_cal_icon" />
+								</div>
+							</div>
+							<div class="run_num_border">
+								<div class="run_num_icon_box">
+									<img src="/static/images/run_num_ai.png" alt="run_num_icon" class="run_num_icon"/>
+								</div>
+								<div class="run_num_icon_box">
+									<img src="/static/images/loading_gray.gif" alt="num_ai_icon" class="num_ai_icon" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>
+<script src="/static/js/index.js"></script>
+<script src="/static/js/fn.js"></script>
+<script src="/static/js/apicall.js"></script>
+<script>
+	ChilledWater_In_Out_T();
+	UpiCall();
+	RunNumDataCall();
+	RunNumAiDataCall();
+
+	setTimeout(function(){
+		ChilledWater_In_Out_T();
+		UpiCall();
+		RunNumDataCall();
+		RunNumAiDataCall();
+	},60000)
+</script>

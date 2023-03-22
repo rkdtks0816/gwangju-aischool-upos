@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* CSS 초기화 */
+html,
+body,
+div,
+span,
+iframe,
+h1,h2,h3,h4,h5,h6,
+p,
+blockquote,
+pre,
+cite,
+code,
+del,
+em,
+img,
+ins,
+q,
+small,
+strong,
+sub,
+sup,
+dl, dt, dd,
+ol, ul, li,
+fieldset,
+form,
+legend,
+table,
+caption,
+thead, tbody, tfoot,
+tr, th, td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+/* 문서 전체 CSS 적용 */
+body {
+    line-height: 1;
+}
+/* 새로운 HTML5 태그 IE 9 이하에서 정상적으로 작동하도록 설정 // 구버전에서는 모르는 태그를 만나면 인라인으로 처리 */
+/* 커스텀 태그를 HTML5에서는 지원 : 이름없는 태그를 사용이 가능하다  */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+/* List 요소 */
+ul, li {
+    list-style: none;
+}
+/* A 요소 */
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1em;
+    vertical-align: baseline;
+    background: none;
+}
+/* img 요소 */
+img {
+    vertical-align: top;
+}
+/* hr 요소 */
+hr {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* button 요소 */
+button {
+    background: none;
+}
+/* 박스사이징 */
+* {
+    box-sizing: border-box;
+}
+/* 플롯 해제 */
+.cf:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 모든 환경에 안보여도 되지만, 반드시 입력해야할 html태그가 존재(웹접근성 떄문에) */
+/* 그때, 해당 요소를 숨기기 위해 사용되는 class */
+
+.blind {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
