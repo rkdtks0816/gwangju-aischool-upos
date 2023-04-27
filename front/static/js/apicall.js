@@ -568,7 +568,7 @@ function RunNumAiDataCall(){
       convertData.Energy_tPUB = key.Energy_tPUB;
     })
     $.ajax({
-      url: `http://${ip}:8003/predapi`,
+      url: `http://${ip}:8008/predapi`,
       method: 'GET',
       dataType: 'json',
       data: convertData

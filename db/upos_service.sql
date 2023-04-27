@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS `UnitReal` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 LOAD DATA LOCAL INFILE
-'/db/UnitReal_df_month.csv' into table UnitReal
+'/UnitReal_df_month.csv' into table UnitReal
 FIELDS TERMINATED BY ',' 
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'

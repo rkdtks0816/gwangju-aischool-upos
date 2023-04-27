@@ -25,7 +25,7 @@ _logger = Logger.Logger("UposService")
 
 
 def GetConnection():
-    connection = pymysql.connect(host='52.78.182.65', port=3306, user='root', password='1234',
+    connection = pymysql.connect(host='59.3.14.15', port=8010, user='root', password='1234',
                                     db='upos_service', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     return connection
 # def GetConnection():

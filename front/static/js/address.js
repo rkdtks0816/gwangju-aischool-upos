@@ -1,6 +1,6 @@
 // IP, PORT Address
-const ip = "52.78.182.65";
-const port = "8002";
+const ip = "59.3.14.15";
+const port = "8009";
 
 // API Address
 // 대시보드
